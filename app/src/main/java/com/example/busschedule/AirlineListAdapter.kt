@@ -26,9 +26,9 @@ import com.example.busschedule.databinding.BusStopItemBinding
 import java.text.SimpleDateFormat
 import java.util.Date
 
-class BusStopAdapter(
+class AirlineAdapter(
     private val onItemClicked: (Schedule) -> Unit
-) : ListAdapter<Schedule, BusStopAdapter.BusStopViewHolder>(DiffCallback) {
+) : ListAdapter<Schedule, AirlineAdapter.BusStopViewHolder>(DiffCallback) {
 
     companion object {
         private val DiffCallback = object : DiffUtil.ItemCallback<Schedule>() {
